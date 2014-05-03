@@ -1,5 +1,4 @@
 .elasticbeanstalk/
 *~
-barrel/bitly.py
 barrel/bitly.pyc
 db.db

@@ -87,8 +87,8 @@
     </div>
     
     <div  class="col-md-3 response-level">
-      {% if show_response ==  True %} 
-      {% if response_found == True %} 
+      {% if show_response %} 
+      {% if response_found %} 
       {% for res in response.data.results %}
       <div class="panel panel-primary">
         <div class="panel-heading response-title">{{ res.title }}</div>

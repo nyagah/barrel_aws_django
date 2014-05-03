@@ -16,7 +16,7 @@ def search(request):
     user_input['location'] = request.POST['location']
     
     response = bitly.search(user_input)
-    
+
     c = {
         'response': response,
         'show_response': True,
